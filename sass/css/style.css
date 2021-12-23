@@ -1,0 +1,274 @@
+@charset "UTF-8";
+h1 {
+  position: absolute;
+  font-size: 40px;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+h2 {
+  position: relative;
+  font-size: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 80px;
+}
+
+h2 span {
+  display: block;
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.cont-fin {
+  padding: 40px 0px;
+}
+
+main .header {
+  height: 75px;
+}
+
+main .header-top {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+main .header-top p {
+  padding-left: 50px;
+  line-height: 75px;
+}
+
+main .header-link {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+main .header-link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 75px;
+}
+
+main .header-link ul li {
+  padding-left: 0px;
+  list-style: none;
+}
+
+main .header-link ul li .border {
+  border-left: solid 2px #FEA96B;
+  opacity: 0.8;
+  padding: 0px 30px;
+  color: black;
+}
+
+main .header-link ul li .contact-btn {
+  background-color: #FEA96B;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+main .header-link ul a {
+  text-decoration: none;
+}
+
+main .header .btn:hover {
+  opacity: 0.2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .top-img {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+}
+
+main .top-img img {
+  width: 100%;
+}
+
+main .favorite-contents {
+  margin: 30px 0px;
+}
+
+main .contents {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+}
+
+main .contents .content {
+  width: 33%;
+  padding: 0px 25px;
+}
+
+main .contents .content .work-img {
+  text-align: center;
+}
+
+main .contents .content img {
+  width: 80%;
+}
+
+main .contents .content .favorite-img {
+  text-align: center;
+}
+
+main .news-contents {
+  width: 600px;
+  margin: 0px auto 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  padding-top: 30px;
+  border-bottom: solid 1px #FEA96B;
+}
+
+main .news-title {
+  padding: 0px 80px 0px 20px;
+}
+
+main .news-section {
+  padding-right: 80px;
+}
+
+main .footer {
+  width: 100%;
+  background-color: #eeeeee;
+  padding-bottom: 50px;
+}
+
+main .footer-logo p {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+main .footer-sns .snsbtniti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+  margin: 0 auto;
+}
+
+main .footer-sns .snsbtniti li {
+  padding: 10px;
+  text-align: center !important;
+  list-style: none;
+}
+
+main .footer-sns .snsbtniti li .flowbtn4 {
+  font-family: 'Trebuchet MS',sans-serif;
+  /* 好きなフォントに変えてね */
+  border-radius: 50%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-decoration: none;
+}
+
+main .footer-sns .snsbtniti li .flowbtn4 div {
+  padding-top: 10px;
+}
+
+main .footer-sns .snsbtniti li .flowbtn4 div div {
+  font-size: 11px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+main .footer-sns .snsbtniti li .flowbtn4:hover {
+  color: #fff !important;
+}
+
+main .footer-sns .snsbtniti li .fl_tw2 {
+  border: solid 1px #55acee;
+  color: #55acee;
+}
+
+main .footer-sns .snsbtniti li .fl_tw2:hover {
+  border: solid 1px #55acee;
+  background: #55acee !important;
+}
+
+main .footer-sns .snsbtniti li .insta_btn2 {
+  border: solid 1px #c6529a !important;
+  color: #c6529a !important;
+}
+
+main .footer-sns .snsbtniti li .insta_btn2:hover {
+  border: solid 1px #c6529a;
+  background: #c6529a;
+}
+
+main .footer-sns .snsbtniti li .fl_fb2 {
+  border: solid 1px #3b5998;
+  color: #3b5998;
+}
+
+main .footer-sns .snsbtniti li .fl_fb2:hover {
+  border: solid 1px #3b5998;
+  background: #3b5998;
+}
+
+main .footer-link {
+  position: relative;
+  margin: 0 auto;
+  width: 530px;
+  padding-top: 50px;
+}
+
+main .footer-link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .footer-link ul li {
+  list-style: none;
+}
+
+main .footer-link ul a {
+  text-decoration: none;
+}
+
+main .footer-top {
+  opacity: 0.8;
+  padding: 0px 30px;
+  color: black;
+}
+
+.connect {
+  text-align: center;
+}
+
+.connect a {
+  padding: 10px 15px;
+  color: white;
+  background-color: #FEA96B;
+  border-radius: 30px;
+}
